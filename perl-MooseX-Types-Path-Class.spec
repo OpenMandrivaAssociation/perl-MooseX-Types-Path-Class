@@ -11,7 +11,10 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
 
-
+BuildRequires: perl(Class::MOP)
+BuildRequires: perl(Moose)
+BuildRequires: perl(MooseX::Types)
+BuildRequires: perl(Path::Class)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 
