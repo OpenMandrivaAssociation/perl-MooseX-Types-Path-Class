@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-Types-Path-Class
-%define upstream_version 0.05
+%define upstream_version 0.06
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	A Path::Class type library for Moose
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Types-Path-Class-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::MOP)
@@ -60,4 +60,5 @@ make test
 
 * Fri May 29 2009 cpan2dist 0.05-1mdv
 - initial mdv release, generated with cpan2dist
+
 

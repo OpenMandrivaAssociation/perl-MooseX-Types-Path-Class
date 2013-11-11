@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-Types-Path-Class-0.05.tar.gz: 43dc480d322d721b333e1b12c7a1b8d110250845
 sources:
-  "MooseX-Types-Path-Class-0.05.tar.gz": 43dc480d322d721b333e1b12c7a1b8d110250845
+  MooseX-Types-Path-Class-0.06.tar.gz: 66d4abeddb269ee839418357677c0c0ec180923c
