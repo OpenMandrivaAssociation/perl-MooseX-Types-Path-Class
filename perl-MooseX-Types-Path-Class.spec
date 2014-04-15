@@ -6,6 +6,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	A Path::Class type library for Moose
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -16,6 +17,7 @@ BuildRequires:	perl(Class::MOP)
 BuildRequires:	perl(Moose)
 BuildRequires:	perl(MooseX::Types)
 BuildRequires:	perl(Path::Class)
+BuildRequires:  perl(namespace::autoclean)
 BuildArch:	noarch
 
 %description
@@ -46,19 +48,4 @@ make test
 %doc Changes README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Mon Apr 18 2011 Funda Wang <fwang@mandriva.org> 0.50.0-2mdv2011.0
-+ Revision: 655139
-- rebuild for updated spec-helper
-
-* Fri May 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.50.0-1mdv2011.0
-+ Revision: 380995
-- adding missing buildrequires:
-- import perl-MooseX-Types-Path-Class
-
-
-* Fri May 29 2009 cpan2dist 0.05-1mdv
-- initial mdv release, generated with cpan2dist
-
 
