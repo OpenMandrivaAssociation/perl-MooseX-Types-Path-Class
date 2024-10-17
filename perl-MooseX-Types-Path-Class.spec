@@ -9,7 +9,7 @@ Summary:	A Path::Class type library for Moose
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Types-Path-Class-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
